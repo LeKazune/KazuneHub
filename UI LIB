@@ -1,4 +1,4 @@
- --[[ Kazune Hub UI LIB ]]--
+--[[ Kazune Hub ]]--
 local maincolor = Color3.fromRGB(193, 229, 255)
 local firstpage = '' 
 local old = game.CoreGui:FindFirstChild('ScreenGui') 
@@ -274,7 +274,8 @@ function library:NewWindow(kazune,hub)
 	Hub.Name = "Hub"
 	Hub.Parent = MainWindow
 	Hub.BackgroundColor3 = maincolor
-	Hub.Position = UDim2.new(0.142211571, 0, 0.0319148935, 0)
+	Hub.BackgroundTransparency = 1
+	Hub.Position = UDim2.new(0.242211571, 0, 0.0319148935, 0)
 	Hub.Size = UDim2.new(0, 42, 0, 19)
 	Hub.Font = Enum.Font.ArialBold
 	Hub.Text = hub
