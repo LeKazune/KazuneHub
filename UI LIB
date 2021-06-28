@@ -1,5 +1,5 @@
-
-local maincolor = Color3.fromRGB(127, 172, 167)
+ -- Kazune Hub UI LIB
+local maincolor = Color3.fromRGB(193, 229, 255)
 local firstpage = '' 
 local old = game.CoreGui:FindFirstChild('ScreenGui') 
 if old  then 
