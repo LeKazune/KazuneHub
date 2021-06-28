@@ -1,4 +1,4 @@
---[[ Kazune Hub ]]--
+--[[ Kazune's Hub ]]--
 local maincolor = Color3.fromRGB(193, 229, 255)
 local firstpage = '' 
 local old = game.CoreGui:FindFirstChild('ScreenGui') 
@@ -275,11 +275,11 @@ function library:NewWindow(kazune,hub)
 	Hub.Parent = MainWindow
 	Hub.BackgroundColor3 = maincolor
 	Hub.BackgroundTransparency = 1
-	Hub.Position = UDim2.new(0.242211571, 0, 0.0319148935, 0)
+	Hub.Position = UDim2.new(0.182211571, 0, 0.0319148935, 0)
 	Hub.Size = UDim2.new(0, 42, 0, 19)
 	Hub.Font = Enum.Font.ArialBold
 	Hub.Text = hub
-	Hub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Hub.TextColor3 = maincolor--Color3.fromRGB(0, 0, 0)
 	Hub.TextSize = 16.000
 	Kazune.Name = "Kazune"
 	Kazune.Parent = MainWindow
